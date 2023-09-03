@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub utils",
+  "version": "0.1",
+  "description": "Multiple GitHub utils. Open Source, offline, and no downloads.",
+  "homepage_url": "https://github.com/Raymo111/GitHub-utils",
+  "icons": {
+    "128": "icon128.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://github.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
