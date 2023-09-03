@@ -1,2 +1,5 @@
-# better-per-tab-zoom
- Better per-tab zoom Chrome extension for Chromium-based browsers
+# GitHub utils
+Quality of life improvements to GitHub
+
+## Features
+- Adds `Open with GitHub desktop` button on Linux
